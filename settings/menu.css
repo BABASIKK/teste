@@ -1,0 +1,144 @@
+/* Общий стиль для меню */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #0004ff;
+  font-family: "Ubuntu", monospace;
+  font-weight: 600;
+  font-size: 19px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 60%;
+}
+
+nav ul li {
+  margin: 0;
+  text-align: center; /* Выравниваем текст по центру */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-size: 19px;
+  padding: 0px 30px;
+  white-space: nowrap;
+  text-align: center;
+  left: 0;
+  position: relative;
+}
+
+/* Стиль для выделения кнопок при наведении мышкой */
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* Стили для логотипа и пользовательского меню */
+.logo img {
+  pointer-events: none;
+}
+
+.user-menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.transition-icons-container {
+  position: relative;
+  display: block;
+  margin: 10px;
+}
+
+.icon-filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.transition-icons-container:hover .icon-filled {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .user-menu {
+    display: flex;
+  }
+}
+
+.user-menu img {
+width: 30px; /* Размер иконок пользовательского меню*/
+margin: 0 5px;
+}
+
+/* Media-запрос для адаптивного дизайна */
+@media (max-width: 768px) {
+nav ul {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.user-menu {
+  display: flex; /* Показать пользовательское меню на мобильных устройствах */
+}
+}
+
+  
+  .transition-icons-container {
+    position: relative;
+    display: block;
+    margin: 10px;
+  }
+  
+  .icon-filled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .transition-icons-container:hover .icon-filled {
+    opacity: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .winter-button {
+    background-image: url(/files/images/sneg.png);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    }
+  }

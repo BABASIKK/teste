@@ -1,0 +1,45 @@
+.new-year {
+    position: relative;
+    margin: 0 auto; 
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+  }
+  
+  .ny-ad {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .swiper {
+    max-width: 1000px;
+    margin: 200px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 15px;
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+  }
+
+  .swiper-slide img {
+    width: 80%;
+    object-fit: cover;
+  }
+
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 140px !important;
+    left: auto;
+    margin-right: 0px;
+  }
+
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 140px !important;
+    right: auto; 
+  }

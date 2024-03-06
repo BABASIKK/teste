@@ -1,0 +1,124 @@
+.product-shoes, .product-clothes, .product-sale {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 750px;
+    margin-left: 100px;
+    font-family: "Ubuntu", monospace;
+    font-size: 20px;
+    z-index: 1;
+  }
+  
+  .item-shoes, .item-clothes, .item-sale {
+	 position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+	  z-index: 1;
+  }
+  
+  .image-shoes, .image-clothes, .image-sale {
+    width: 450px;
+  }
+  
+  .name-shoes, .name-clothes, .name-sale {
+    color: black;
+    margin-top: 5px;
+  }
+
+  .text-container-sale { /* Создать разные атрибуты с текстом, чтобы была возможность придать разные настройки текстам */
+    position: absolute;
+    bottom: 0;
+    transform: translate(60%, -230%);
+    font-size: 25px;
+    font-family: "Ubuntu", monospace;
+}
+
+  .text-container-shoes { /* Создать разные атрибуты с текстом, чтобы была возможность придать разные настройки текстам */
+    position: absolute;
+    bottom: 0;
+    transform: translate(60%, -230%);
+    font-size: 25px;
+    font-family: "Ubuntu", monospace;
+}
+
+.text-container-clothes {
+  position: absolute;
+    bottom: 0;
+    transform: translate(60%, 90%);
+    font-size: 25px;
+    font-family: "Ubuntu", monospace;
+}
+
+.text-model-sale { /* Тут тоже самое как в text-container-shoes */
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  
+  height: 60px;
+  position: relative;
+  white-space: nowrap;
+  bottom: 0;
+  transform: translate(1050%, -105%);
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Ubuntu", monospace;
+  line-height: 55px;
+}
+
+  .text-model-shoes { /* Тут тоже самое как в text-container-shoes */
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    
+    height: 60px;
+    position: relative;
+    white-space: nowrap;
+    bottom: 0;
+    transform: translate(1050%, -105%);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Ubuntu", monospace;
+    line-height: 55px;
+  }
+
+  .text-model-clothes { /* Тут тоже самое как в text-container-shoes */
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    
+    height: 60px;
+    position: relative;
+    white-space: nowrap;
+    bottom: 0;
+    transform: translate(1050%, -155%);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Ubuntu", monospace;
+    line-height: 55px;
+  }
+
+
+  h2 {
+    text-decoration: none;
+  }
+  
+  .price-shoes, .price-clothes, .price-sale {
+    font-size: 16px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .discount-shoes, .discount-clothes, .discount-sale {
+    font-size: 14px;
+    text-decoration: line-through red;
+  }
+  
+  .image-shoes:hover, .image-clothes:hover, .image-sale {
+    transition: transform 0.7s ease;
+    transform: scale(1.07);
+  }
+
+  .top-fc-clothes {
+    margin-top: -600px;
+  }

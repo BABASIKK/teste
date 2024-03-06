@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&family=Ubuntu+Mono&display=swap');
+
+body, html {
+    /*background-image: url(/files/images/web-background.png);*/
+    background-size: auto;
+    background-repeat: repeat;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    font-family: "Ubuntu", monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}

@@ -1,0 +1,102 @@
+.product-newcollab {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 150px;
+    font-family: "Ubuntu", monospace;
+    font-size: 20px;
+    z-index: 1;
+  }
+  
+  .item-newcollab {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .image-newcollab {
+    width: 450px;
+  }
+  
+  .name-newcollab {
+    color: black;
+    margin-top: 5px;
+  }
+  
+  .text-container-newcollab {
+    position: relative;
+    top: 30px;
+    left: 50px;
+    font-size: 25px;
+    font-family: "Ubuntu", monospace;
+  }
+  
+  .text-model-newcollab {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    position: relative;
+    white-space: nowrap;
+    bottom: 0;
+    margin-top: -100px;
+    right: 100px;
+    width: 230px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Ubuntu", monospace;
+    line-height: 55px;
+    float: right;
+    text-align: center;
+    line-height: 0px;
+  }
+  
+  .price-newcollab {
+    font-size: 16px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .discount-newcollab {
+    font-size: 14px;
+    text-decoration: line-through red;
+  }
+  
+  .image-newcollab:hover {
+    transition: transform 0.7s ease;
+    transform: scale(1.07);
+  }
+  
+  .left-newcollab {
+    margin-right: -10px;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .product-newcollab {
+      margin-left: 0;
+      justify-content: center;
+    }
+    
+    .item-newcollab {
+      position: static;
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    
+    .image-newcollab {
+      width: 100%;
+    }
+    
+    .text-model-newcollab {
+      margin-top: 20px;
+      margin-right: 0;
+      float: none;
+      width: 100%;
+    }
+  }
+  

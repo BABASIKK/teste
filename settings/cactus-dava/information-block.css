@@ -1,0 +1,32 @@
+/* стили для чёрного блока */
+.black-block {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 150px;
+  }
+  
+
+  .section {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch; 
+  }
+  
+
+  .section a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+
+  .section p {
+    margin-top: auto;
+  }
